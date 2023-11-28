@@ -1097,9 +1097,9 @@ NSString static *const kWKYTPlayerSyndicationRegexPattern = @"^https://tpc.googl
     configuration.userContentController = wkUController;
     
     configuration.allowsInlineMediaPlayback = YES;
-    if ( [(NSString*)[UIDevice currentDevice].model hasPrefix:@"iPad"] && [playsinline isEqualToNumber:@0]) {
-        configuration.allowsInlineMediaPlayback = NO; /* Device is iPad */
-    }
+//    if ( [(NSString*)[UIDevice currentDevice].model hasPrefix:@"iPad"] && [playsinline isEqualToNumber:@0]) {
+//        configuration.allowsInlineMediaPlayback = NO; /* Device is iPad */
+//    }
 
     configuration.mediaTypesRequiringUserActionForPlayback = NO;
     
